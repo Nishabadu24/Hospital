@@ -1,0 +1,241 @@
+/* ---------------------------------------------------------------------- 
+>>> TABLE OF CONTENT
+-------------------------------------------------------------------------
+1 - PERFECT-SCROLLBAR
+2 - BOOTSTRAP SLIDERS
+3 - TREE
+4 - IMAGE CROP
+5 - FILE UPLOAD
+6 - NESTABLE
+7 - SWEET ALERT
+8 - CALENDAR
+9 - CHARTJS
+10 - SPARKLINE
+/* ---------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/*  Perfect Scrollbar
+/* ---------------------------------------------------------------------- */
+.ps-container .ps-scrollbar-x-rail:hover,
+.ps-container .ps-scrollbar-x-rail.hover {
+  background-color: #e5e7eb !important;
+}
+
+.ps-container .ps-scrollbar-y-rail {
+  transition: all 300ms !important;
+  width: 4px !important;
+}
+
+.ps-container .ps-scrollbar-y {
+  transition: all 300ms !important;
+  width: 4px !important;
+  background-color: rgba(76,110,245,0.4) !important;
+}
+
+.ps-container:hover .ps-scrollbar-y-rail,
+.ps-container.hover .ps-scrollbar-y-rail {
+  opacity: 0.4;
+  width: 4px !important;
+}
+
+.ps-container .ps-scrollbar-y-rail:hover,
+.ps-container .ps-scrollbar-y-rail.in-scrolling {
+  background-color: #e5e7eb;
+  width: 10px !important;
+  opacity: 0.6;
+}
+
+.ps-container .ps-scrollbar-y-rail:hover .ps-scrollbar-y,
+.ps-container .ps-scrollbar-y-rail.in-scrolling .ps-scrollbar-y {
+  background-color: #4c6ef5;
+  width: 10px !important;
+}
+
+.perfect-scrollbar {
+  overflow-y: hidden !important;
+}
+
+.touch .perfect-scrollbar {
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Bootstrap Slider
+/* ---------------------------------------------------------------------- */
+.slider-handle.round {
+  background: linear-gradient(to bottom, #f3f4f6 10%, #ffffff 90%);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+}
+
+.slider-selection {
+  background-image: none !important;
+  box-shadow: none;
+}
+
+.slider.slider-primary .slider-selection { background: #4c6ef5; }
+.slider.slider-blue .slider-selection { background: #5c7cfa; }
+.slider.slider-green .slider-selection { background: #20c997; }
+.slider.slider-orange .slider-selection { background: #fd7e14; }
+.slider.slider-red .slider-selection { background: #fa5252; }
+.slider.slider-yellow .slider-selection { background: #fcc419; }
+.slider.slider-purple .slider-selection { background: #7950f2; }
+.slider.slider-azure .slider-selection { background: #339af0; }
+
+/* ---------------------------------------------------------------------- */
+/* Tree
+/* ---------------------------------------------------------------------- */
+.box-tree .nav > li > a {
+  color: #6b7280;
+}
+
+.box-tree .nav > li > a:hover {
+  color: #374151;
+}
+
+.box-tree .nav > li > a i {
+  color: #4c6ef5;
+}
+
+.box-tree .nav > li.active > a,
+.box-tree .nav > li.active > a i {
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Crop Image
+/* ---------------------------------------------------------------------- */
+.cropBox {
+  background-color: #f3f4f6;
+  border-radius: 6px;
+  color: #4b5563;
+}
+
+.cropArea {
+  background-color: #ffffff;
+}
+
+.croppedBox > div,
+img-crop {
+  background-size: 80px 80px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* File Input
+/* ---------------------------------------------------------------------- */
+.fileinput-new.thumbnail,
+.fileinput-preview.thumbnail {
+  border-radius: 6px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Nestable
+/* ---------------------------------------------------------------------- */
+.angular-ui-tree-handle,
+.dd-handle {
+  background: #f9fafb !important;
+  border: 1px solid #d1d5db !important;
+  color: #6b7280 !important;
+}
+
+.angular-ui-tree-handle:hover,
+.dd-handle:hover {
+  background: #eef2f7 !important;
+  border-color: #9ca3af !important;
+}
+
+.dd-item > button:before {
+  color: #4c6ef5;
+}
+
+.group-title {
+  background-color: #2f3b52 !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sweet Alert
+/* ---------------------------------------------------------------------- */
+.sweet-alert h2 {
+  color: #374151 !important;
+}
+
+.sweet-alert button {
+  background: #4c6ef5 !important;
+  border-radius: 4px !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Calendar
+/* ---------------------------------------------------------------------- */
+.fc-event,
+#event-categories .event-category {
+  background: #f9fafb !important;
+  border: 1px solid #e5e7eb !important;
+  color: #6b7280 !important;
+}
+
+.fc-header-title h2 {
+  color: #9ca3af;
+}
+
+.fc-state-highlight {
+  background: #eef2f7 !important;
+}
+
+.fc-button {
+  background: #ffffff !important;
+  border-color: #d1d5db !important;
+  color: #4b5563 !important;
+}
+
+.fc-event .fc-content > span:first-child:before,
+.event-category:before {
+  color: #4c6ef5;
+}
+
+.event-job:before { color: #4c6ef5 !important; }
+.event-to-do:before { color: #fd7e14 !important; }
+.event-off-site-work:before { color: #20c997 !important; }
+
+/* ---------------------------------------------------------------------- */
+/* ChartJS
+/* ---------------------------------------------------------------------- */
+.chart-legend > ul li {
+  color: #4b5563;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sparkline
+/* ---------------------------------------------------------------------- */
+.mini-stats .values {
+  color: #6b7280;
+}
+
+.mini-stats .values strong {
+  color: #111827;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Jcrop
+/* ---------------------------------------------------------------------- */
+.jcrop-holder #preview-pane {
+  border-radius: 8px;
+  border-color: rgba(0,0,0,0.2);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Multiple File Upload
+/* ---------------------------------------------------------------------- */
+.fileupload-new .btn-file {
+  background: #4c6ef5 !important;
+  color: #ffffff !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Maps
+/* ---------------------------------------------------------------------- */
+.map {
+  border-radius: 8px;
+  overflow: hidden;
+}

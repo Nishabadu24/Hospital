@@ -1,0 +1,260 @@
+/* ---------------------------------------------------------------------- */
+/*  Theme 6 – Graphite Indigo
+/* ---------------------------------------------------------------------- */
+
+body {
+  background: #edf1f5;
+}
+
+@media (max-width: 991px) {
+  .app-content {
+    background: #edf1f5;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Header
+/* ---------------------------------------------------------------------- */
+header .navbar-header {
+  background: #222831 !important;
+  border-right-color: rgba(0,0,0,0.25) !important;
+  border-bottom-color: rgba(0,0,0,0.25) !important;
+}
+
+header .navbar-header .sidebar-toggler,
+header .navbar-header .sidebar-mobile-toggler,
+header .navbar-header .menu-toggler {
+  color: #8fb3c9 !important;
+}
+
+header .navbar-header .navbar-brand {
+  color: #ffffff !important;
+}
+
+header .navbar-collapse {
+  background: #ffffff !important;
+  border-bottom-color: rgba(0,0,0,0.15) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+}
+
+header .navbar-collapse .navbar-right > li > a {
+  color: #2b2f33;
+}
+
+header .navbar-collapse .navbar-right > li > a i {
+  color: #4c6ef5 !important;
+}
+
+header .navbar-collapse .navbar-right > li > a:hover,
+header .navbar-collapse .navbar-right > li.open > a {
+  background: #eef2f7 !important;
+}
+
+header .navbar-collapse .navbar-right .dot-badge {
+  border-color: #ffffff;
+}
+
+/* Mobile header */
+@media (max-width: 991px) {
+  header .navbar-collapse {
+    background: #222831 !important;
+    box-shadow: none;
+  }
+
+  header .navbar-collapse .navbar-right > li:hover,
+  header .navbar-collapse .navbar-right > li.open {
+    background: #161b22 !important;
+  }
+
+  header .navbar-collapse .navbar-right > li > a {
+    color: #ffffff;
+  }
+
+  header .navbar-collapse .navbar-right > li > a i {
+    color: #8fb3c9 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  header .navbar-collapse {
+    background: #1a1f26 !important;
+  }
+
+  header .navbar-collapse .close-handle {
+    background: #222831;
+  }
+
+  header .navbar-collapse .close-handle .arrow-left,
+  header .navbar-collapse .close-handle .arrow-right {
+    background-color: #8fb3c9;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Off-sidebar dropdown
+/* ---------------------------------------------------------------------- */
+header .dropdown-off-sidebar {
+  border-left-color: rgba(0,0,0,0.2) !important;
+  background: #ffffff !important;
+  color: #4b5563 !important;
+}
+
+@media (max-width: 991px) {
+  header .dropdown-off-sidebar {
+    background: #222831 !important;
+    color: #8fb3c9 !important;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar
+/* ---------------------------------------------------------------------- */
+#sidebar {
+  background: #222831 !important;
+}
+
+#sidebar:before,
+#sidebar nav {
+  border-right-color: transparent !important;
+}
+
+#sidebar nav .navbar-title {
+  color: #9aa4b2;
+}
+
+#sidebar nav > ul {
+  background: #1c222b !important;
+  border-top-color: #101317 !important;
+  border-bottom-color: #101317 !important;
+}
+
+#sidebar nav > ul > li > a .item-inner {
+  color: #c3cbd6 !important;
+  border-bottom-color: #101317;
+}
+
+#sidebar nav > ul > li > a .item-media > i {
+  color: #4dabf7 !important;
+}
+
+#sidebar nav > ul > li:hover,
+#sidebar nav > ul > li.open {
+  background: #141920 !important;
+}
+
+#sidebar nav > ul > li.active {
+  background: #2f3b52 !important;
+}
+
+#sidebar nav > ul > li.active .item-inner,
+#sidebar nav > ul > li.active i {
+  color: #ffffff !important;
+}
+
+/* Sub-menu */
+#sidebar nav .sub-menu {
+  background: #171c23;
+}
+
+#sidebar nav .sub-menu li a {
+  color: #b0b8c4;
+}
+
+#sidebar nav .sub-menu li.active a {
+  background: #0f1318 !important;
+}
+
+/* Buttons */
+#sidebar nav .button-o {
+  border-color: #4dabf7 !important;
+  color: #4dabf7 !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar Closed
+/* ---------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  .app-sidebar-closed .app-aside .search-form,
+  .app-sidebar-closed .app-aside .navbar-form {
+    background: #151a21 !important;
+  }
+
+  .app-sidebar-closed .app-aside > .item-inner {
+    background: #10151b !important;
+  }
+
+  .app-sidebar-closed .app-aside > .item-inner.active:after {
+    border-left-color: #2f3b52 !important;
+  }
+
+  .app-sidebar-closed .app-aside .sub-menu {
+    background: #1c222b;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Search
+/* ---------------------------------------------------------------------- */
+.navbar-form {
+  background: #151a21 !important;
+}
+
+.navbar-form .search-button {
+  color: #8fb3c9;
+}
+
+.navbar-form .form-control {
+  background: transparent !important;
+}
+
+.navbar-form .form-control:focus {
+  background: #ffffff !important;
+  border-color: #ffffff;
+}
+
+.navbar-form .form-control:focus + .search-button {
+  color: #6c757d;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Off Sidebar
+/* ---------------------------------------------------------------------- */
+#off-sidebar {
+  background: #ffffff !important;
+  border-color: #d1d5db !important;
+}
+
+#off-sidebar .sidebar-back {
+  color: #4c6ef5;
+}
+
+#off-sidebar .nav-tabs > li > a {
+  background: #f3f4f6;
+  color: rgba(76,110,245,0.7);
+}
+
+#off-sidebar .nav-tabs > li.active > a {
+  background: #ffffff;
+  color: #4c6ef5;
+}
+
+#off-sidebar .media {
+  border-color: #e5e7eb;
+  color: #555;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Scrollbar
+/* ---------------------------------------------------------------------- */
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+  background-color: rgba(0,0,0,0.35) !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Footer
+/* ---------------------------------------------------------------------- */
+#app > footer {
+  background: #222831 !important;
+  border-top-color: rgba(0,0,0,0.25) !important;
+  color: #ffffff;
+}

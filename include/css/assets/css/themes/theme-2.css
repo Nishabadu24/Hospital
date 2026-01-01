@@ -1,0 +1,221 @@
+/* ---------------------------------------------------------------------- */
+/*  Theme 2 – Charcoal Slate (Modern Dark)
+/* ---------------------------------------------------------------------- */
+
+/* Base */
+body {
+  background: #eceff1;
+  color: #2e2e2e;
+}
+
+.app-content {
+  background: #eceff1;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Header
+/* ---------------------------------------------------------------------- */
+header .navbar-header {
+  background: #1f2329 !important;
+  border-right: 1px solid #2d333b !important;
+  border-bottom: 1px solid #2d333b !important;
+}
+
+header .navbar-header .sidebar-toggler,
+header .navbar-header .sidebar-mobile-toggler,
+header .navbar-header .menu-toggler {
+  color: #7fbfb6 !important;
+}
+
+header .navbar-header .navbar-brand {
+  color: #ffffff !important;
+}
+
+header .navbar-collapse {
+  background: #ffffff !important;
+  border-bottom: 1px solid #d0d5da !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
+}
+
+header .navbar-collapse .navbar-right > li > a {
+  color: #444;
+}
+
+header .navbar-collapse .navbar-right > li > a i {
+  color: #3c8d86 !important;
+}
+
+header .navbar-collapse .navbar-right > li > a:hover,
+header .navbar-collapse .navbar-right > li.open > a {
+  background: #eef5f4 !important;
+}
+
+/* Mobile header */
+@media (max-width: 991px) {
+  header .navbar-collapse {
+    background: #1f2329 !important;
+    box-shadow: none;
+  }
+
+  header .navbar-collapse .navbar-right > li {
+    border-bottom: 1px solid #2d333b !important;
+  }
+
+  header .navbar-collapse .navbar-right > li > a {
+    color: #ffffff;
+  }
+
+  header .navbar-collapse .navbar-right > li > a i {
+    color: #7fbfb6 !important;
+  }
+
+  header .navbar-collapse .navbar-right > li:hover {
+    background: #15181d !important;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar
+/* ---------------------------------------------------------------------- */
+#sidebar {
+  background: #161a1f !important;
+}
+
+#sidebar:before,
+#sidebar nav {
+  border-right: none !important;
+}
+
+#sidebar nav .navbar-title {
+  color: #d1d7de;
+}
+
+#sidebar nav > ul {
+  background: #1f2329 !important;
+  border-top: 1px solid #121418;
+  border-bottom: 1px solid #121418;
+}
+
+#sidebar nav > ul > li > a .item-inner {
+  color: #b6beca !important;
+  border-bottom-color: #121418;
+}
+
+#sidebar nav > ul > li > a .item-media i {
+  color: #9aa4b2 !important;
+}
+
+#sidebar nav > ul > li:hover,
+#sidebar nav > ul > li.open {
+  background: #15181d !important;
+}
+
+#sidebar nav > ul > li.active {
+  background: #3c8d86 !important;
+}
+
+#sidebar nav > ul > li.active .item-inner,
+#sidebar nav > ul > li.active i {
+  color: #ffffff !important;
+}
+
+/* Sub-menu */
+#sidebar nav .sub-menu {
+  background: #181c21;
+}
+
+#sidebar nav .sub-menu li a {
+  color: #aab2be;
+}
+
+#sidebar nav .sub-menu li.active a {
+  background: #0f1216 !important;
+}
+
+/* Buttons */
+#sidebar nav .button-o {
+  border-color: #7fbfb6 !important;
+  color: #7fbfb6 !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar Closed
+/* ---------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  .app-sidebar-closed .app-aside .navbar-form,
+  .app-sidebar-closed .app-aside .search-form {
+    background: #101317 !important;
+  }
+
+  .app-sidebar-closed .app-aside .item-inner {
+    background: #12161b !important;
+  }
+
+  .app-sidebar-closed .app-aside .item-inner.active:after {
+    border-left-color: #3c8d86 !important;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Search
+/* ---------------------------------------------------------------------- */
+.navbar-form {
+  background: #101317 !important;
+}
+
+.navbar-form .search-button {
+  color: #ffffff;
+}
+
+.navbar-form .form-control {
+  background: transparent !important;
+  color: #ffffff;
+}
+
+.navbar-form .form-control:focus {
+  background: #ffffff !important;
+  color: #2e2e2e;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Off Sidebar
+/* ---------------------------------------------------------------------- */
+#off-sidebar {
+  background: #ffffff !important;
+  border-left: 1px solid #d0d5da !important;
+}
+
+#off-sidebar .sidebar-back {
+  color: #3c8d86;
+}
+
+#off-sidebar .nav-tabs > li > a {
+  background: #f1f4f6;
+  color: #3c8d86;
+}
+
+#off-sidebar .nav-tabs > li.active > a {
+  background: #ffffff;
+  color: #3c8d86;
+}
+
+#off-sidebar .media {
+  border-color: #e1e4e8;
+  color: #444;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Scrollbar
+/* ---------------------------------------------------------------------- */
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+  background-color: rgba(0,0,0,0.35) !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Footer
+/* ---------------------------------------------------------------------- */
+#app > footer {
+  background: #1f2329 !important;
+  border-top: 1px solid #2d333b !important;
+  color: #ffffff;
+}

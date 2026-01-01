@@ -1,0 +1,223 @@
+/* ---------------------------------------------------------------------- */
+/*  Theme 2 – Modern Neutral (Safe UI)
+/* ---------------------------------------------------------------------- */
+
+/* Selection */
+::selection,
+::-moz-selection {
+  background: #2bb0a6;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* Base */
+body {
+  background: #f4f6f8;
+  color: #2e2e2e;
+}
+
+/* App content */
+.app-content {
+  background: #f4f6f8;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Header / Navbar
+/* ---------------------------------------------------------------------- */
+header .navbar-header {
+  background: #ffffff !important;
+  border-right: 1px solid #dcdfe3 !important;
+  border-bottom: 1px solid #dcdfe3 !important;
+}
+
+header .navbar-header .sidebar-toggler,
+header .navbar-header .sidebar-mobile-toggler,
+header .navbar-header .menu-toggler {
+  color: #2bb0a6 !important;
+}
+
+header .navbar-header .navbar-brand {
+  color: #444 !important;
+}
+
+header .navbar-collapse {
+  background: #ffffff !important;
+  border-bottom: 1px solid #dcdfe3 !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+
+header .navbar-collapse .navbar-right > li > a {
+  color: #444;
+}
+
+header .navbar-collapse .navbar-right > li > a i {
+  color: #2bb0a6 !important;
+}
+
+header .navbar-collapse .navbar-right > li > a:hover,
+header .navbar-collapse .navbar-right > li.open > a {
+  background: #eef4f3 !important;
+}
+
+header .navbar-collapse .dot-badge {
+  border-color: #ffffff;
+}
+
+/* Mobile navbar */
+@media (max-width: 991px) {
+  header .navbar-collapse .navbar-right > li {
+    border-bottom: 1px solid #e1e4e8;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar
+/* ---------------------------------------------------------------------- */
+#sidebar {
+  background: #eef1f4 !important;
+}
+
+#sidebar:before,
+#sidebar nav {
+  border-right: 1px solid #dcdfe3 !important;
+}
+
+#sidebar nav .navbar-title {
+  color: #8a8f98;
+}
+
+#sidebar nav > ul {
+  background: #ffffff !important;
+  border-top: 1px solid #dcdfe3;
+  border-bottom: 1px solid #dcdfe3;
+}
+
+#sidebar nav > ul > li > a .item-inner {
+  color: #444 !important;
+  border-bottom-color: #e6e9ed;
+}
+
+#sidebar nav > ul > li > a .item-media i,
+#sidebar nav > ul > li > a .fa-square {
+  color: #2bb0a6 !important;
+}
+
+#sidebar nav > ul > li:hover,
+#sidebar nav > ul > li.open {
+  background: #f1f6f5 !important;
+}
+
+#sidebar nav > ul > li.active {
+  background: #2bb0a6 !important;
+}
+
+#sidebar nav > ul > li.active .item-inner,
+#sidebar nav > ul > li.active i {
+  color: #ffffff !important;
+}
+
+#sidebar nav > ul > li.active:after {
+  border-right-color: #f4f6f8 !important;
+}
+
+/* Sub-menus */
+#sidebar nav .sub-menu {
+  background: #f7f9fb;
+}
+
+#sidebar nav .sub-menu li a {
+  color: #555;
+}
+
+#sidebar nav .sub-menu li.active a {
+  background: #e2f1ef !important;
+}
+
+/* Buttons */
+#sidebar nav .button-o {
+  border-color: #2bb0a6 !important;
+  color: #2bb0a6 !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar Closed State
+/* ---------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  .app-sidebar-closed .app-aside .navbar-form,
+  .app-sidebar-closed .app-aside .search-form {
+    background: #e6eaee !important;
+    border-bottom: 1px solid #dcdfe3 !important;
+  }
+
+  .app-sidebar-closed .app-aside .item-inner {
+    background: #edf0f3 !important;
+  }
+
+  .app-sidebar-closed .app-aside .item-inner.active:after {
+    border-left-color: #2bb0a6 !important;
+  }
+
+  .app-sidebar-closed .app-aside .sub-menu {
+    background: #ffffff;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Search / Forms
+/* ---------------------------------------------------------------------- */
+.navbar-form {
+  background: #e6eaee !important;
+}
+
+.navbar-form .form-control {
+  background: transparent !important;
+  color: #444;
+}
+
+.navbar-form .form-control:focus {
+  background: #ffffff !important;
+  border-color: #2bb0a6;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Off Sidebar
+/* ---------------------------------------------------------------------- */
+#off-sidebar {
+  background: #ffffff !important;
+  border-left: 1px solid #dcdfe3 !important;
+}
+
+#off-sidebar .sidebar-back {
+  color: #2bb0a6;
+}
+
+#off-sidebar .nav-tabs > li > a {
+  background: #f1f3f6;
+  color: #2bb0a6;
+}
+
+#off-sidebar .nav-tabs > li.active > a {
+  background: #ffffff;
+  color: #2bb0a6;
+}
+
+#off-sidebar .media {
+  border-color: #e1e4e8;
+  color: #444;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Scrollbars
+/* ---------------------------------------------------------------------- */
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+  background-color: rgba(0,0,0,0.35) !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Footer
+/* ---------------------------------------------------------------------- */
+#app > footer {
+  background: #ffffff !important;
+  border-top: 1px solid #dcdfe3 !important;
+  color: #666;
+}

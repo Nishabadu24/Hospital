@@ -1,0 +1,252 @@
+/* ---------------------------------------------------------------------- */
+/*  Theme 4 – Sandstone Amber
+/* ---------------------------------------------------------------------- */
+
+/* Selection */
+::-moz-selection,
+::selection {
+  background: #f2a900;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* Base */
+body {
+  background: #f5f4f2;
+  color: #2f2f2f;
+}
+
+@media (max-width: 991px) {
+  .app-content {
+    background: #f5f4f2;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Header
+/* ---------------------------------------------------------------------- */
+header .navbar-header {
+  background: #f0ede9 !important;
+  border-right-color: #dedad4 !important;
+  border-bottom-color: #dedad4 !important;
+}
+
+header .navbar-header .sidebar-toggler,
+header .navbar-header .sidebar-mobile-toggler,
+header .navbar-header .menu-toggler {
+  color: #f2a900 !important;
+}
+
+header .navbar-header .navbar-brand {
+  color: #2f2f2f !important;
+}
+
+header .navbar-collapse {
+  background: #f7f6f4 !important;
+  border-bottom-color: #dedad4 !important;
+  box-shadow: none !important;
+}
+
+header .navbar-collapse .navbar-right > li > a {
+  color: #2f2f2f;
+}
+
+header .navbar-collapse .navbar-right > li > a i {
+  color: #f2a900 !important;
+}
+
+header .navbar-collapse .navbar-right > li > a:hover,
+header .navbar-collapse .navbar-right > li.open > a {
+  background: #e4e0da !important;
+}
+
+header .navbar-collapse .navbar-right .dot-badge {
+  border-color: #f7f6f4;
+}
+
+/* Mobile Header */
+@media (max-width: 991px) {
+  header .navbar-collapse {
+    background: #f0ede9 !important;
+  }
+
+  header .navbar-collapse .navbar-right > li {
+    border-bottom: 1px solid #dedad4 !important;
+  }
+
+  header .navbar-collapse .navbar-right > li:hover,
+  header .navbar-collapse .navbar-right > li.open {
+    background: #e4e0da !important;
+  }
+}
+
+@media (max-width: 767px) {
+  header .navbar-collapse {
+    background: #e6e2dc !important;
+  }
+
+  header .navbar-collapse .close-handle {
+    background: #f0ede9;
+  }
+
+  header .navbar-collapse .close-handle .arrow-left,
+  header .navbar-collapse .close-handle .arrow-right {
+    background-color: #f2a900;
+  }
+}
+
+header .dropdown-off-sidebar {
+  background: #f7f6f4 !important;
+  border-left-color: #dedad4 !important;
+  color: #f2a900 !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar
+/* ---------------------------------------------------------------------- */
+#sidebar {
+  background: #e6e2dc !important;
+}
+
+#sidebar:before,
+#sidebar nav {
+  border-right: 1px solid #dedad4 !important;
+}
+
+#sidebar nav .navbar-title {
+  color: #6b675f;
+}
+
+#sidebar nav > ul {
+  background: #f7f6f4 !important;
+  border-top: 1px solid #dedad4;
+  border-bottom: 1px solid #dedad4;
+}
+
+#sidebar nav > ul > li > a .item-inner {
+  color: #2f2f2f !important;
+  border-bottom-color: #dedad4;
+}
+
+#sidebar nav > ul > li > a i {
+  color: #b8b3aa !important;
+}
+
+#sidebar nav > ul > li:hover,
+#sidebar nav > ul > li.open {
+  background: #ebe7e1 !important;
+}
+
+#sidebar nav > ul > li.active {
+  background: #f2a900 !important;
+}
+
+#sidebar nav > ul > li.active .item-inner,
+#sidebar nav > ul > li.active i {
+  color: #ffffff !important;
+}
+
+/* Submenu */
+#sidebar nav .sub-menu {
+  background: #efede9;
+}
+
+#sidebar nav .sub-menu li a {
+  color: #2f2f2f;
+}
+
+#sidebar nav .sub-menu li.active a {
+  background: #e0dbd4 !important;
+}
+
+/* Buttons */
+#sidebar nav .button-o {
+  border-color: #f2a900 !important;
+  color: #f2a900 !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar Closed
+/* ---------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  .app-sidebar-closed .app-aside .navbar-form,
+  .app-sidebar-closed .app-aside .search-form {
+    background: #dfdbd4 !important;
+  }
+
+  .app-sidebar-closed .app-aside > .item-inner {
+    background: #e8e4de !important;
+  }
+
+  .app-sidebar-closed .app-aside > .item-inner.active:after {
+    border-left-color: #f2a900 !important;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Search
+/* ---------------------------------------------------------------------- */
+.navbar-form {
+  background: #dfdbd4 !important;
+}
+
+.navbar-form .search-button {
+  color: #2f2f2f;
+}
+
+.navbar-form .form-control {
+  background: transparent !important;
+}
+
+.navbar-form .form-control:focus {
+  background: #ffffff !important;
+  border-color: #ffffff;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Off Sidebar
+/* ---------------------------------------------------------------------- */
+#off-sidebar {
+  background: #f7f6f4 !important;
+  border-color: #dedad4 !important;
+}
+
+#off-sidebar .sidebar-back {
+  color: #f2a900;
+}
+
+#off-sidebar .tab-content {
+  background: #f7f6f4 !important;
+}
+
+#off-sidebar .nav-tabs > li > a {
+  background: #ebe7e1;
+  color: rgba(242,169,0,0.7);
+  border-color: #dedad4;
+}
+
+#off-sidebar .nav-tabs > li.active > a {
+  background: #f7f6f4;
+  color: #f2a900;
+}
+
+#off-sidebar .media {
+  border-color: #dedad4;
+  color: #2f2f2f;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Scrollbar
+/* ---------------------------------------------------------------------- */
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+  background-color: rgba(0,0,0,0.35) !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Footer
+/* ---------------------------------------------------------------------- */
+#app > footer {
+  background: #f0ede9 !important;
+  border-top-color: #dedad4 !important;
+  color: #2f2f2f;
+}

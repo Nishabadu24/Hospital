@@ -1,0 +1,239 @@
+/* ---------------------------------------------------------------------- */
+/*  Theme 3 – Graphite Mist
+/* ---------------------------------------------------------------------- */
+
+/* Selection */
+::selection,
+::-moz-selection {
+  background: #3fb8ad;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* Base */
+body {
+  background: #eef2f4;
+  color: #2e2e2e;
+}
+
+.app-content {
+  background: #eef2f4;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Header
+/* ---------------------------------------------------------------------- */
+header .navbar-header {
+  background: #3a3f45 !important;
+  border: none !important;
+}
+
+header .navbar-header .sidebar-toggler,
+header .navbar-header .sidebar-mobile-toggler,
+header .navbar-header .menu-toggler {
+  color: #3fb8ad !important;
+}
+
+header .navbar-header .navbar-brand {
+  color: #ffffff !important;
+}
+
+header .navbar-collapse {
+  background: #3a3f45 !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25) !important;
+}
+
+header .navbar-collapse .navbar-right > li > a {
+  color: #ffffff;
+}
+
+header .navbar-collapse .navbar-right > li > a i {
+  color: #3fb8ad !important;
+}
+
+header .navbar-collapse .navbar-right > li:hover,
+header .navbar-collapse .navbar-right > li.open {
+  background: #2f3439 !important;
+}
+
+/* Mobile */
+@media (max-width: 991px) {
+  header .navbar-collapse {
+    background: #3a3f45 !important;
+    box-shadow: none;
+  }
+
+  header .navbar-collapse .navbar-right > li {
+    border-bottom: 1px solid #2b2f34 !important;
+  }
+
+  header .navbar-collapse .navbar-right > li > a i {
+    color: #3fb8ad !important;
+  }
+}
+
+@media (max-width: 767px) {
+  header .navbar-collapse {
+    background: #34393e !important;
+  }
+
+  header .navbar-collapse .close-handle {
+    background: #3a3f45;
+  }
+
+  header .navbar-collapse .close-handle .arrow-left,
+  header .navbar-collapse .close-handle .arrow-right {
+    background-color: #3fb8ad;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar
+/* ---------------------------------------------------------------------- */
+#sidebar {
+  background: #5f6872 !important;
+}
+
+#sidebar:before,
+#sidebar nav {
+  border-right: none !important;
+}
+
+#sidebar nav .navbar-title {
+  color: #ffffff;
+}
+
+#sidebar nav > ul {
+  background: #525a63 !important;
+  border-top: 1px solid #49515a;
+  border-bottom: 1px solid #49515a;
+}
+
+#sidebar nav > ul > li > a .item-inner {
+  color: #ffffff !important;
+  border-bottom-color: #49515a;
+}
+
+#sidebar nav > ul > li > a i {
+  color: #c9ced4 !important;
+}
+
+#sidebar nav > ul > li:hover,
+#sidebar nav > ul > li.open {
+  background: #474f57 !important;
+}
+
+#sidebar nav > ul > li.active {
+  background: #3fb8ad !important;
+}
+
+#sidebar nav > ul > li.active i,
+#sidebar nav > ul > li.active .item-inner {
+  color: #ffffff !important;
+}
+
+/* Submenu */
+#sidebar nav .sub-menu {
+  background: #4e5660;
+}
+
+#sidebar nav .sub-menu li a {
+  color: #ffffff;
+}
+
+#sidebar nav .sub-menu li.active a {
+  background: #3a3f45 !important;
+}
+
+/* Buttons */
+#sidebar nav .button-o {
+  border-color: #c9ced4 !important;
+  color: #c9ced4 !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Sidebar Closed
+/* ---------------------------------------------------------------------- */
+@media (min-width: 992px) {
+  .app-sidebar-closed .app-aside .navbar-form,
+  .app-sidebar-closed .app-aside .search-form {
+    background: #5a636e !important;
+  }
+
+  .app-sidebar-closed .app-aside .item-inner {
+    background: #434a52 !important;
+  }
+
+  .app-sidebar-closed .app-aside .item-inner.active:after {
+    border-left-color: #3fb8ad !important;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/* Search
+/* ---------------------------------------------------------------------- */
+.navbar-form {
+  background: #5a636e !important;
+}
+
+.navbar-form .search-button {
+  color: #ffffff;
+}
+
+.navbar-form .form-control {
+  background: transparent !important;
+  color: #ffffff;
+}
+
+.navbar-form .form-control:focus {
+  background: #ffffff !important;
+  color: #2e2e2e;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Off Sidebar
+/* ---------------------------------------------------------------------- */
+#off-sidebar {
+  background: #5f6872 !important;
+  border-color: #434a52 !important;
+}
+
+#off-sidebar .sidebar-back {
+  color: #3fb8ad;
+}
+
+#off-sidebar .tab-content {
+  background: #5f6872 !important;
+}
+
+#off-sidebar .nav-tabs > li > a {
+  background: #56606b;
+  color: rgba(63,184,173,0.75);
+  border-color: #434a52;
+}
+
+#off-sidebar .nav-tabs > li.active > a {
+  background: #5f6872;
+  color: #3fb8ad;
+}
+
+#off-sidebar .media {
+  border-color: #434a52;
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Scrollbar
+/* ---------------------------------------------------------------------- */
+.ps-container > .ps-scrollbar-y-rail > .ps-scrollbar-y {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Footer
+/* ---------------------------------------------------------------------- */
+#app > footer {
+  background: #3a3f45 !important;
+  border-top: none !important;
+  color: #ffffff;
+}
